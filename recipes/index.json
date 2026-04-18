@@ -1,0 +1,1224 @@
+{
+  "recipes": [
+    {
+      "slug": "air-fryer-baked-potato",
+      "name": "Air Fryer Baked Potato",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 45,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "russet potato",
+        "olive oil",
+        "salt",
+        "cheddar cheese",
+        "ranch dressing"
+      ],
+      "needs_precooked": false,
+      "description": "Whole baked potato with crispy skin from the air fryer.",
+      "servings": 1
+    },
+    {
+      "slug": "baked-oatmeal",
+      "name": "Baked Oatmeal",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 25,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "rolled oats",
+        "brown sugar",
+        "eggs",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Oats baked into a cakey breakfast slab in the air fryer.",
+      "servings": 2
+    },
+    {
+      "slug": "bean-cheese-rollups",
+      "name": "Bean and Cheese Roll-Ups",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "air_fryer",
+        "no_cook"
+      ],
+      "ingredients": [
+        "cooked black beans",
+        "cheddar cheese",
+        "flatbread",
+        "ranch dressing"
+      ],
+      "needs_precooked": true,
+      "description": "Assembly-only meal with pre-cooked beans.",
+      "servings": 1
+    },
+    {
+      "slug": "bean-tostada",
+      "name": "Bean Tostada on Flatbread",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "cooked black beans",
+        "cheddar cheese",
+        "ranch dressing",
+        "salt",
+        "garlic powder"
+      ],
+      "needs_precooked": true,
+      "description": "Crispy flatbread base topped with beans and cheese.",
+      "servings": 1
+    },
+    {
+      "slug": "beans-rice-cheese-bowl",
+      "name": "Beans, Rice, and Cheese Bowl",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "microwave",
+        "no_cook"
+      ],
+      "ingredients": [
+        "cooked black beans",
+        "cooked rice",
+        "cheddar cheese",
+        "salt",
+        "pepper",
+        "garlic powder",
+        "ranch dressing"
+      ],
+      "needs_precooked": true,
+      "description": "Classic cheap filling meal. Requires pre-cooked components.",
+      "servings": 1
+    },
+    {
+      "slug": "black-bean-rice-patties",
+      "name": "Black Bean Rice Patties",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 25,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "cooked black beans",
+        "cooked rice",
+        "eggs",
+        "flour",
+        "yellow onion",
+        "garlic powder",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": true,
+      "description": "Mashed bean patties, pan-fried until crispy.",
+      "servings": 2
+    },
+    {
+      "slug": "breakfast-for-dinner-hash",
+      "name": "Breakfast-for-Dinner Potato Hash",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 20,
+      "method": [
+        "air_fryer",
+        "stove"
+      ],
+      "ingredients": [
+        "russet potato",
+        "yellow onion",
+        "eggs",
+        "cheddar cheese",
+        "olive oil",
+        "salt",
+        "pepper",
+        "garlic powder",
+        "ranch dressing"
+      ],
+      "needs_precooked": false,
+      "description": "Crispy diced potatoes and onion with an egg on top.",
+      "servings": 1
+    },
+    {
+      "slug": "brown-sugar-oatmeal",
+      "name": "Brown Sugar Oatmeal",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 3,
+      "method": [
+        "microwave"
+      ],
+      "ingredients": [
+        "rolled oats",
+        "brown sugar"
+      ],
+      "needs_precooked": false,
+      "description": "Plain sweet oatmeal. Minimum-effort breakfast.",
+      "servings": 1
+    },
+    {
+      "slug": "cheesy-beans-on-toast",
+      "name": "Cheesy Beans on Flatbread",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 10,
+      "method": [
+        "stove",
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "cooked black beans",
+        "cheddar cheese",
+        "garlic powder",
+        "salt"
+      ],
+      "needs_precooked": true,
+      "description": "Saucy beans piled on toasted flatbread.",
+      "servings": 1
+    },
+    {
+      "slug": "cheesy-flatbread-pizza",
+      "name": "Cheesy Flatbread Pizza",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 10,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "tomato sauce",
+        "italian seasoning",
+        "cheddar cheese"
+      ],
+      "needs_precooked": false,
+      "description": "Flatbread as pizza crust, air-fried until bubbly.",
+      "servings": 1
+    },
+    {
+      "slug": "cheesy-lentil-bake",
+      "name": "Cheesy Lentil Bake",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "cooked lentils",
+        "tomato sauce",
+        "italian seasoning",
+        "cheddar cheese",
+        "salt"
+      ],
+      "needs_precooked": true,
+      "description": "Pre-cooked lentils baked with tomato sauce and cheese.",
+      "servings": 1
+    },
+    {
+      "slug": "cheesy-onion-flatbread",
+      "name": "Caramelized Onion Flatbread",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 20,
+      "method": [
+        "stove",
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "yellow onion",
+        "cheddar cheese",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Sweet caramelized onions on flatbread with cheese.",
+      "servings": 1
+    },
+    {
+      "slug": "cheesy-rice",
+      "name": "Cheesy Rice",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 20,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "jasmine rice",
+        "cheddar cheese",
+        "bouillon powder",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Rice cooked in broth, stirred with cheese at the end.",
+      "servings": 2
+    },
+    {
+      "slug": "cheesy-scrambled-rice",
+      "name": "Cheesy Scrambled Rice",
+      "meal_types": [
+        "breakfast",
+        "lunch"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "microwave",
+        "no_cook"
+      ],
+      "ingredients": [
+        "cooked rice",
+        "eggs",
+        "cheddar cheese",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": true,
+      "description": "Scrambled egg mixed into leftover rice, topped with cheese.",
+      "servings": 1
+    },
+    {
+      "slug": "crispy-air-fryer-potatoes-egg-cheese",
+      "name": "Crispy Air Fryer Potatoes with Egg and Cheese",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 20,
+      "method": [
+        "air_fryer",
+        "stove"
+      ],
+      "ingredients": [
+        "russet potato",
+        "cheddar cheese",
+        "eggs",
+        "olive oil",
+        "salt",
+        "pepper",
+        "garlic powder",
+        "onion powder",
+        "ranch dressing"
+      ],
+      "needs_precooked": false,
+      "description": "Set-and-forget crispy potatoes, fried egg, melted cheese, ranch drizzle.",
+      "servings": 1
+    },
+    {
+      "slug": "curry-potatoes",
+      "name": "Curry Potatoes",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 25,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "russet potato",
+        "curry powder",
+        "garlic powder",
+        "onion powder",
+        "olive oil",
+        "salt",
+        "ranch dressing"
+      ],
+      "needs_precooked": false,
+      "description": "Air fryer potatoes with mild curry powder.",
+      "servings": 1
+    },
+    {
+      "slug": "egg-drop-soup",
+      "name": "Thick Egg Drop Rice",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 10,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "cooked rice",
+        "eggs",
+        "bouillon powder",
+        "soy sauce",
+        "yellow onion",
+        "olive oil"
+      ],
+      "needs_precooked": true,
+      "description": "Egg-thickened broth over rice. Quick and comforting.",
+      "servings": 1
+    },
+    {
+      "slug": "fried-egg-flatbread",
+      "name": "Fried Egg on Flatbread",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "flatbread",
+        "eggs",
+        "cheddar cheese",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": false,
+      "description": "Flatbread as a toast substitute, topped with egg and cheese.",
+      "servings": 1
+    },
+    {
+      "slug": "fried-rice",
+      "name": "Fried Rice",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "cooked rice",
+        "eggs",
+        "yellow onion",
+        "soy sauce",
+        "olive oil",
+        "cooked black beans"
+      ],
+      "needs_precooked": true,
+      "description": "Stir-fried leftover rice with egg and onion.",
+      "servings": 1
+    },
+    {
+      "slug": "garlic-bread-flatbread",
+      "name": "Garlic Cheese Bread",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 6,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "olive oil",
+        "minced garlic",
+        "cheddar cheese",
+        "italian seasoning",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Flatbread with garlic oil and melted cheese.",
+      "servings": 1
+    },
+    {
+      "slug": "garlic-flatbread-chips",
+      "name": "Garlic Flatbread Chips",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 8,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "olive oil",
+        "garlic powder",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Flatbread cut into chips and air-fried. Great with ranch.",
+      "servings": 1
+    },
+    {
+      "slug": "garlic-pasta",
+      "name": "Garlic Oil Pasta",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "spaghetti pasta",
+        "minced garlic",
+        "olive oil",
+        "cheddar cheese",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": false,
+      "description": "Minimalist pasta with garlic, oil, and cheese.",
+      "servings": 2
+    },
+    {
+      "slug": "lentil-dal-over-rice",
+      "name": "Lentil Dal Over Rice",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 35,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "lentils",
+        "jasmine rice",
+        "yellow onion",
+        "minced garlic",
+        "bouillon powder",
+        "curry powder",
+        "salt",
+        "olive oil"
+      ],
+      "needs_precooked": false,
+      "description": "Thick, scoopable lentil dal over jasmine rice. Makes 3-4 servings.",
+      "servings": 4,
+      "notes": "Batch cook. Freeze leftover dal in portions."
+    },
+    {
+      "slug": "lentil-rice-pilaf",
+      "name": "Lentil Rice Pilaf",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 30,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "lentils",
+        "jasmine rice",
+        "yellow onion",
+        "minced garlic",
+        "bouillon powder",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Lentils and rice cooked together with fried onions. One pot.",
+      "servings": 3
+    },
+    {
+      "slug": "lentil-tacos",
+      "name": "Lentil \"Tacos\"",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 30,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "lentils",
+        "flatbread",
+        "yellow onion",
+        "minced garlic",
+        "diced tomatoes",
+        "cheddar cheese",
+        "olive oil",
+        "garlic powder",
+        "onion powder",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Taco-seasoned lentils in flatbread.",
+      "servings": 2
+    },
+    {
+      "slug": "lentil-wraps",
+      "name": "Lentil Wraps",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "air_fryer",
+        "microwave",
+        "no_cook"
+      ],
+      "ingredients": [
+        "cooked lentils",
+        "flatbread",
+        "cheddar cheese"
+      ],
+      "needs_precooked": true,
+      "description": "Pre-cooked lentil dal wrapped in flatbread.",
+      "servings": 1
+    },
+    {
+      "slug": "loaded-baked-potato",
+      "name": "Loaded Baked Potato",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 10,
+      "method": [
+        "microwave"
+      ],
+      "ingredients": [
+        "russet potato",
+        "cheddar cheese",
+        "cooked black beans",
+        "ranch dressing",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": true,
+      "description": "Microwave potato loaded with cheese, beans, and ranch.",
+      "servings": 1
+    },
+    {
+      "slug": "microwave-egg-on-rice",
+      "name": "Microwave Egg Over Rice",
+      "meal_types": [
+        "breakfast",
+        "lunch"
+      ],
+      "prep_time_min": 3,
+      "method": [
+        "microwave",
+        "no_cook"
+      ],
+      "ingredients": [
+        "cooked rice",
+        "eggs",
+        "soy sauce",
+        "cheddar cheese"
+      ],
+      "needs_precooked": true,
+      "description": "Ultra-fast bowl with pre-cooked rice.",
+      "servings": 1
+    },
+    {
+      "slug": "microwave-mug-eggs",
+      "name": "Microwave Mug Eggs",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 2,
+      "method": [
+        "microwave"
+      ],
+      "ingredients": [
+        "eggs",
+        "cheddar cheese",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": false,
+      "description": "No-pan eggs in 90 seconds.",
+      "servings": 1
+    },
+    {
+      "slug": "overnight-peanut-butter-oats",
+      "name": "Overnight Peanut Butter Oats",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "no_cook"
+      ],
+      "ingredients": [
+        "rolled oats",
+        "peanut butter",
+        "brown sugar"
+      ],
+      "needs_precooked": false,
+      "description": "Mix night before, eat cold in the morning. Zero morning effort.",
+      "servings": 1
+    },
+    {
+      "slug": "pan-fried-potato-wedges",
+      "name": "Pan-Fried Potato Wedges",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 20,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "russet potato",
+        "olive oil",
+        "salt",
+        "pepper",
+        "garlic powder",
+        "ranch dressing"
+      ],
+      "needs_precooked": false,
+      "description": "Cut into wedges, pan-fried until crispy. No air fryer needed.",
+      "servings": 1
+    },
+    {
+      "slug": "pasta-lentil-meat-sauce",
+      "name": "Pasta with Lentil \"Meat\" Sauce",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 30,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "penne pasta",
+        "lentils",
+        "diced tomatoes",
+        "tomato sauce",
+        "yellow onion",
+        "minced garlic",
+        "italian seasoning",
+        "cheddar cheese",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Lentils stand in for meat in a tomato-based pasta sauce.",
+      "servings": 3
+    },
+    {
+      "slug": "pasta-salad-ranch",
+      "name": "Ranch Pasta Salad",
+      "meal_types": [
+        "lunch"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "penne pasta",
+        "ranch dressing",
+        "yellow onion",
+        "cheddar cheese",
+        "italian seasoning",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Cold pasta with ranch dressing — stores great for leftovers.",
+      "servings": 2
+    },
+    {
+      "slug": "pasta-with-tomato-sauce",
+      "name": "Pasta with Tomato Sauce",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "penne pasta",
+        "tomato sauce",
+        "italian seasoning",
+        "garlic powder",
+        "cheddar cheese",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Fastest pasta dinner.",
+      "servings": 2
+    },
+    {
+      "slug": "pb-flatbread-rollup",
+      "name": "PB Flatbread Roll-Up",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 2,
+      "method": [
+        "no_cook"
+      ],
+      "ingredients": [
+        "flatbread",
+        "peanut butter",
+        "brown sugar"
+      ],
+      "needs_precooked": false,
+      "description": "Pre-made flatbread as a wrap for peanut butter. Zero cooking.",
+      "servings": 1
+    },
+    {
+      "slug": "peanut-butter-flatbread-toast",
+      "name": "Peanut Butter Flatbread Toast",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 3,
+      "method": [
+        "stove",
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "peanut butter"
+      ],
+      "needs_precooked": false,
+      "description": "Toasted flatbread with peanut butter.",
+      "servings": 1
+    },
+    {
+      "slug": "peanut-butter-oatmeal",
+      "name": "Peanut Butter Oatmeal",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 3,
+      "method": [
+        "microwave"
+      ],
+      "ingredients": [
+        "rolled oats",
+        "peanut butter",
+        "brown sugar"
+      ],
+      "needs_precooked": false,
+      "description": "Fast, filling, one-bowl breakfast. Tastes like a peanut butter cookie.",
+      "servings": 1
+    },
+    {
+      "slug": "penne-with-lentils",
+      "name": "Penne with Lentils",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "penne pasta",
+        "cooked lentils",
+        "olive oil",
+        "minced garlic",
+        "italian seasoning",
+        "cheddar cheese",
+        "salt"
+      ],
+      "needs_precooked": true,
+      "description": "Pasta tossed with pre-cooked lentils for extra protein.",
+      "servings": 2
+    },
+    {
+      "slug": "potato-egg-breakfast-bowl",
+      "name": "Potato and Egg Breakfast Bowl",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "microwave",
+        "stove"
+      ],
+      "ingredients": [
+        "russet potato",
+        "eggs",
+        "cheddar cheese",
+        "olive oil",
+        "salt",
+        "pepper",
+        "garlic powder"
+      ],
+      "needs_precooked": false,
+      "description": "Microwaved potato diced up with a scrambled egg on top.",
+      "servings": 1
+    },
+    {
+      "slug": "potato-lentil-curry",
+      "name": "Potato Lentil Curry",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 35,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "russet potato",
+        "lentils",
+        "yellow onion",
+        "minced garlic",
+        "curry powder",
+        "diced tomatoes",
+        "bouillon powder",
+        "olive oil",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Mild curry with potatoes and lentils. Thick, stew-like.",
+      "servings": 3
+    },
+    {
+      "slug": "potato-pancakes",
+      "name": "Potato Pancakes",
+      "meal_types": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 20,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "russet potato",
+        "eggs",
+        "flour",
+        "yellow onion",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": false,
+      "description": "Shredded potato patties, pan-fried crispy.",
+      "servings": 2
+    },
+    {
+      "slug": "potato-soup-thick",
+      "name": "Thick Potato Chowder",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 30,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "russet potato",
+        "yellow onion",
+        "minced garlic",
+        "bouillon powder",
+        "cheddar cheese",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": false,
+      "description": "Thick, stew-like potato chowder — not watery.",
+      "servings": 2
+    },
+    {
+      "slug": "quesadillas",
+      "name": "Quesadillas",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "stove",
+        "air_fryer"
+      ],
+      "ingredients": [
+        "flatbread",
+        "cheddar cheese",
+        "cooked black beans"
+      ],
+      "needs_precooked": true,
+      "description": "Folded flatbread with melted cheese. Optional beans.",
+      "servings": 1
+    },
+    {
+      "slug": "ranch-roasted-potatoes",
+      "name": "Ranch-Roasted Potatoes",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 22,
+      "method": [
+        "air_fryer"
+      ],
+      "ingredients": [
+        "russet potato",
+        "ranch dressing",
+        "olive oil",
+        "salt",
+        "pepper",
+        "garlic powder"
+      ],
+      "needs_precooked": false,
+      "description": "Potatoes tossed in ranch before roasting for rich, tangy flavor.",
+      "servings": 1
+    },
+    {
+      "slug": "refried-style-beans",
+      "name": "Refried-Style Beans",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 10,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "cooked black beans",
+        "yellow onion",
+        "minced garlic",
+        "olive oil",
+        "salt",
+        "garlic powder"
+      ],
+      "needs_precooked": true,
+      "description": "Smashed, seasoned black beans for wraps or bowls.",
+      "servings": 2
+    },
+    {
+      "slug": "savory-oats-with-egg",
+      "name": "Savory Oats with Egg",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 8,
+      "method": [
+        "microwave",
+        "stove"
+      ],
+      "ingredients": [
+        "rolled oats",
+        "bouillon powder",
+        "cheddar cheese",
+        "eggs",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": false,
+      "description": "Savory take on oatmeal. Weirder than it sounds, better than it sounds.",
+      "servings": 1
+    },
+    {
+      "slug": "scrambled-eggs-with-cheese",
+      "name": "Scrambled Eggs with Cheese",
+      "meal_types": [
+        "breakfast"
+      ],
+      "prep_time_min": 5,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "eggs",
+        "cheddar cheese",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "needs_precooked": false,
+      "description": "Classic quick breakfast. Cheese melts from residual heat.",
+      "servings": 1
+    },
+    {
+      "slug": "simple-lentil-rice-bowl",
+      "name": "Simple Lentil-Rice Bowl",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 3,
+      "method": [
+        "microwave",
+        "no_cook"
+      ],
+      "ingredients": [
+        "cooked lentils",
+        "cooked rice",
+        "cheddar cheese",
+        "ranch dressing",
+        "soy sauce"
+      ],
+      "needs_precooked": true,
+      "description": "Ultra-fast assembly bowl from pre-cooked components.",
+      "servings": 1
+    },
+    {
+      "slug": "soy-garlic-rice",
+      "name": "Soy Garlic Rice",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 20,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "jasmine rice",
+        "soy sauce",
+        "minced garlic",
+        "olive oil",
+        "eggs"
+      ],
+      "needs_precooked": false,
+      "description": "Rice cooked plain, then stir-fried with soy sauce and garlic.",
+      "servings": 1
+    },
+    {
+      "slug": "spaghetti-with-tomato-sauce",
+      "name": "Spaghetti with Tomato Sauce",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "spaghetti pasta",
+        "tomato sauce",
+        "italian seasoning",
+        "garlic powder",
+        "cheddar cheese",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Classic weeknight spaghetti.",
+      "servings": 2
+    },
+    {
+      "slug": "stovetop-mac-and-cheese",
+      "name": "Stovetop Mac and Cheese",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 15,
+      "method": [
+        "stove"
+      ],
+      "ingredients": [
+        "penne pasta",
+        "cheddar cheese",
+        "olive oil",
+        "flour",
+        "salt",
+        "garlic powder"
+      ],
+      "needs_precooked": false,
+      "description": "No-roux cheesy pasta using pasta water as the sauce base.",
+      "servings": 2
+    },
+    {
+      "slug": "stovetop-pasta-bake",
+      "name": "Pasta Bake",
+      "meal_types": [
+        "lunch",
+        "dinner"
+      ],
+      "prep_time_min": 25,
+      "method": [
+        "stove",
+        "air_fryer"
+      ],
+      "ingredients": [
+        "penne pasta",
+        "tomato sauce",
+        "diced tomatoes",
+        "italian seasoning",
+        "cheddar cheese",
+        "salt"
+      ],
+      "needs_precooked": false,
+      "description": "Cooked pasta mixed with sauce, topped with melted cheese.",
+      "servings": 2
+    }
+  ],
+  "all_ingredients": [
+    "bouillon powder",
+    "brown sugar",
+    "cheddar cheese",
+    "cooked black beans",
+    "cooked lentils",
+    "cooked rice",
+    "curry powder",
+    "diced tomatoes",
+    "eggs",
+    "flatbread",
+    "flour",
+    "garlic powder",
+    "italian seasoning",
+    "jasmine rice",
+    "lentils",
+    "minced garlic",
+    "olive oil",
+    "onion powder",
+    "peanut butter",
+    "penne pasta",
+    "pepper",
+    "ranch dressing",
+    "rolled oats",
+    "russet potato",
+    "salt",
+    "soy sauce",
+    "spaghetti pasta",
+    "tomato sauce",
+    "yellow onion"
+  ]
+}

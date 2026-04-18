@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+
+# Local-only planning + recipe source dumps
+overview.md
+mealdice_seed_corpus.md
+mealdice_*_recipes.md
