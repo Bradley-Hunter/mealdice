@@ -87,9 +87,18 @@
 
      </details>
      <div class="filter-actions">
-       <button type="button" id="reset-btn" class="secondary">Reset filters</button>
+       <button type="button" id="reset-btn" class="secondary">Reset</button>
+       <button type="button" id="browse-btn" class="secondary">Browse</button>
        <button type="button" id="roll-btn" class="primary">Roll</button>
      </div>
+    </section>
+
+    <section id="browse" class="browse" hidden>
+      <div class="browse-header">
+        <input type="text" id="browse-search" placeholder="Search recipes…" autocomplete="off" />
+        <button type="button" id="browse-close" class="secondary" aria-label="Close browse">Close</button>
+      </div>
+      <ul class="browse-list" id="browse-list"></ul>
     </section>
 
     <section id="result" class="result" hidden aria-live="polite"></section>

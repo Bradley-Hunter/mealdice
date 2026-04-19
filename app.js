@@ -31,6 +31,11 @@
     dontWantSuggestions: document.getElementById('dont-want-suggestions'),
     resetBtn: document.getElementById('reset-btn'),
     rollBtn: document.getElementById('roll-btn'),
+    browseBtn: document.getElementById('browse-btn'),
+    browse: document.getElementById('browse'),
+    browseSearch: document.getElementById('browse-search'),
+    browseClose: document.getElementById('browse-close'),
+    browseList: document.getElementById('browse-list'),
     result: document.getElementById('result'),
   };
 
@@ -118,7 +123,58 @@
     setupChipField(el.dontWantSearch, el.dontWantSuggestions, el.dontWantChips, state.dontWant);
 
     el.resetBtn.addEventListener('click', resetFilters);
-    el.rollBtn.addEventListener('click', () => roll());
+    el.rollBtn.addEventListener('click', () => { closeBrowse(); roll(); });
+    el.browseBtn.addEventListener('click', openBrowse);
+    el.browseClose.addEventListener('click', closeBrowse);
+    el.browseSearch.addEventListener('input', () => renderBrowseList(el.browseSearch.value));
+  }
+
+  // --- Browse ---
+  function openBrowse() {
+    el.browse.hidden = false;
+    el.result.hidden = true;
+    el.browseSearch.value = '';
+    renderBrowseList('');
+    el.browseSearch.focus();
+  }
+
+  function closeBrowse() {
+    el.browse.hidden = true;
+  }
+
+  function renderBrowseList(query) {
+    const q = norm(query);
+    const sorted = state.index.recipes.slice().sort((a, b) => a.name.localeCompare(b.name));
+    const items = q ? sorted.filter(r => r.name.toLowerCase().includes(q)) : sorted;
+    el.browseList.innerHTML = '';
+    if (items.length === 0) {
+      const li = document.createElement('li');
+      li.className = 'b-empty';
+      li.textContent = 'No matches';
+      el.browseList.appendChild(li);
+      return;
+    }
+    for (const r of items) {
+      const li = document.createElement('li');
+      const meta = [
+        r.meal_types.join(' / '),
+        `${r.prep_time_min} min`,
+        r.method.map(methodLabel).join(', '),
+      ].join(' • ');
+      const name = document.createElement('span');
+      name.className = 'b-name';
+      name.textContent = r.name;
+      const metaEl = document.createElement('span');
+      metaEl.className = 'b-meta';
+      metaEl.textContent = meta;
+      li.appendChild(name);
+      li.appendChild(metaEl);
+      li.addEventListener('click', () => {
+        closeBrowse();
+        renderRecipe(r, { closest: false, triedSlugs: new Set() });
+      });
+      el.browseList.appendChild(li);
+    }
   }
 
   function updateRadioGroup(group, value) {
