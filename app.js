@@ -9,6 +9,7 @@
     cookState: 'any', // 'any' | 'scratch' | 'assembly'
     methods: new Set(),
     prepTime: 'any',
+    want: new Set(),
     outOf: new Set(),
     dontWant: new Set(),
   };
@@ -23,6 +24,9 @@
     cookStateGroup: document.getElementById('cook-state-group'),
     methodGroup: document.getElementById('method-group'),
     prepTimeGroup: document.getElementById('prep-time-group'),
+    wantChips: document.getElementById('want-chips'),
+    wantSearch: document.getElementById('want-search'),
+    wantSuggestions: document.getElementById('want-suggestions'),
     outOfChips: document.getElementById('out-of-chips'),
     outOfSearch: document.getElementById('out-of-search'),
     outOfSuggestions: document.getElementById('out-of-suggestions'),
@@ -116,6 +120,7 @@
       updateRadioGroup(el.prepTimeGroup, state.prepTime);
     });
 
+    setupChipField(el.wantSearch, el.wantSuggestions, el.wantChips, state.want);
     setupChipField(el.outOfSearch, el.outOfSuggestions, el.outOfChips, state.outOf, {
       onAdd: persistOutOf,
       onRemove: persistOutOf,
@@ -186,13 +191,15 @@
   function renderAll() {
     updateRadioGroup(el.prepTimeGroup, state.prepTime);
     updateRadioGroup(el.cookStateGroup, state.cookState);
+    renderChipsFor('want');
     renderChipsFor('outOf');
     renderChipsFor('dontWant');
   }
 
   function renderChipsFor(which) {
-    const [set, container, onChange] = which === 'outOf'
-      ? [state.outOf, el.outOfChips, persistOutOf]
+    const [set, container, onChange] =
+      which === 'want' ? [state.want, el.wantChips, null]
+      : which === 'outOf' ? [state.outOf, el.outOfChips, persistOutOf]
       : [state.dontWant, el.dontWantChips, null];
     container.innerHTML = '';
     [...set].sort().forEach(v => {
@@ -263,7 +270,7 @@
       set.add(vn);
       if (hooks.onAdd) hooks.onAdd();
       input.value = '';
-      const which = (set === state.outOf) ? 'outOf' : 'dontWant';
+      const which = set === state.want ? 'want' : set === state.outOf ? 'outOf' : 'dontWant';
       renderChipsFor(which);
       render('');
       input.focus();
@@ -313,6 +320,7 @@
     state.cookState = 'any';
     state.methods.clear();
     state.prepTime = 'any';
+    state.want.clear();
     state.outOf.clear();
     state.dontWant.clear();
     persistOutOf();
@@ -323,8 +331,10 @@
     el.prepTimeGroup.querySelectorAll('button').forEach(b => {
       b.setAttribute('aria-checked', b.dataset.value === 'any' ? 'true' : 'false');
     });
+    el.wantSearch.value = '';
     el.outOfSearch.value = '';
     el.dontWantSearch.value = '';
+    renderChipsFor('want');
     renderChipsFor('outOf');
     renderChipsFor('dontWant');
     el.result.hidden = true;
@@ -353,6 +363,7 @@
       if (r.ingredients.some(i => state.outOf.has(i))) return false;
       if (state.cookState === 'scratch' && r.needs_precooked) return false;
       if (state.cookState === 'assembly' && !r.needs_precooked) return false;
+      if (state.want.size > 0 && ![...state.want].every(w => r.ingredients.includes(w))) return false;
       return true;
     });
   }

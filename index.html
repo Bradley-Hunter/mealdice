@@ -68,6 +68,15 @@
       </div>
 
       <div class="filter-group">
+        <label class="group-label" for="want-search">Want to use <span class="hint">(only show recipes with these)</span></label>
+        <div class="chip-field">
+          <div class="chips" id="want-chips" aria-live="polite"></div>
+          <input type="text" id="want-search" placeholder="Search ingredients…" autocomplete="off" />
+          <ul class="suggestions" id="want-suggestions" hidden></ul>
+        </div>
+      </div>
+
+      <div class="filter-group">
         <label class="group-label" for="out-of-search">Out of <span class="hint">(hard exclude)</span></label>
         <div class="chip-field">
           <div class="chips" id="out-of-chips" aria-live="polite"></div>
